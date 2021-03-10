@@ -25,9 +25,6 @@ padding: 10px;
     margin: 0 auto;
     padding: 20px;
 }
-#area-postagens, #area-lateral{
-    background-color: orange;
-}
 #area-postagens{
     width: 660px;
     float: left;
@@ -49,6 +46,11 @@ padding: 10px;
     margin-bottom: 20px;
     padding: 20px;
 }
+.conteudo-lateral{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
 /** formatações em geral **/
 h1{
     color: #4e4e4e;
@@ -56,6 +58,12 @@ h1{
 }
 h2{
     color: #f7b600;
+}
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+
 }
 .branco{
     color: white;
@@ -67,17 +75,28 @@ h2{
     margin-bottom: 10px;
     display: block;
 }
-
+.postagem-lateral{
+    font-size: 0.9em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
 /** Formatação do menu **/
 a{
     text-decoration: none;
-    padding: 8px 12px;
 }
-a:link, a:visited{
-color: #fff;
-
+a:link ,  a:visited{
+    color: #f7b600;
 }
 a:hover{
+    text-decoration: underline;
+}
+#area-cabeçalho a:link, #area-cabeçalho a:visited{
+color: #fff;
+padding: 8px 12px;
+
+}
+#area-cabeçalho a:hover{
     color: #f7b600;
     background-color: #fff;
+    text-decoration: none;
 }
